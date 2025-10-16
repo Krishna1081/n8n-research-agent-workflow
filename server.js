@@ -1,4 +1,4 @@
-import { start } from 'n8n';
+const n8n = require('n8n');
 
-// Start n8n instance
-start();
+// Start n8n
+n8n.start();
